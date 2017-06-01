@@ -19,15 +19,17 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Collapse.ctl" Type="VI" URL="../Collapse.ctl"/>
-		<Item Name="Discover Systems.vi" Type="VI" URL="../Discover Systems.vi"/>
+		<Item Name="subs" Type="Folder">
+			<Item Name="Collapse.ctl" Type="VI" URL="../Collapse.ctl"/>
+			<Item Name="Discover Systems.vi" Type="VI" URL="../Discover Systems.vi"/>
+			<Item Name="Load System Properties UI.vi" Type="VI" URL="../Imager Editor Handler/Load System Properties UI.vi"/>
+			<Item Name="Refresh Remote Systems Layout.vi" Type="VI" URL="../Imager Editor Handler/Refresh Remote Systems Layout.vi"/>
+		</Item>
 		<Item Name="Icon84_Big_Data_g.ico" Type="Document" URL="../Icon84_Big_Data_g.ico"/>
 		<Item Name="Imager Handler.lvclass" Type="LVClass" URL="../Imager Editor Handler/Imager Handler.lvclass"/>
-		<Item Name="Load System Properties UI.vi" Type="VI" URL="../Imager Editor Handler/Load System Properties UI.vi"/>
 		<Item Name="LV Image Editor Framework.lvlib" Type="Library" URL="/&lt;vilib&gt;/LIEF/LV Image Editor Framework.lvlib"/>
 		<Item Name="Main Draft LIEF Imager.vi" Type="VI" URL="../Main Draft LIEF Imager.vi"/>
 		<Item Name="QuickTest.vi" Type="VI" URL="../QuickTest.vi"/>
-		<Item Name="Refresh Remote Systems Layout.vi" Type="VI" URL="../Imager Editor Handler/Refresh Remote Systems Layout.vi"/>
 		<Item Name="Remote System.lvclass" Type="LVClass" URL="../Remote System/Remote System.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -94,7 +96,7 @@
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/RT Finder/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Icon84_Big_Data_g.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{0FA5FD6D-8A79-42F2-A5A6-AF2DC9035168}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{54AD9451-5097-419E-BD30-E64018D48CF3}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Main Draft LIEF Imager.vi</Property>
