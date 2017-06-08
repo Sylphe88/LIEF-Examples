@@ -25,7 +25,7 @@
 			<Item Name="Load System Properties UI.vi" Type="VI" URL="../Imager Editor Handler/Load System Properties UI.vi"/>
 			<Item Name="Refresh Remote Systems Layout.vi" Type="VI" URL="../Imager Editor Handler/Refresh Remote Systems Layout.vi"/>
 		</Item>
-		<Item Name="Icon84_Big_Data_g.ico" Type="Document" URL="../Icon84_Big_Data_g.ico"/>
+		<Item Name="Icon84_Big_Data_g.png" Type="Document" URL="../Icon84_Big_Data_g.png"/>
 		<Item Name="Imager Handler.lvclass" Type="LVClass" URL="../Imager Editor Handler/Imager Handler.lvclass"/>
 		<Item Name="LV Image Editor Framework.lvlib" Type="Library" URL="/&lt;vilib&gt;/LIEF/LV Image Editor Framework.lvlib"/>
 		<Item Name="Main Draft LIEF Imager.vi" Type="VI" URL="../Main Draft LIEF Imager.vi"/>
@@ -95,7 +95,7 @@
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/RT Finder/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Icon84_Big_Data_g.ico</Property>
+				<Property Name="Exe_iconItemID" Type="Ref"></Property>
 				<Property Name="Source[0].itemID" Type="Str">{54AD9451-5097-419E-BD30-E64018D48CF3}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
